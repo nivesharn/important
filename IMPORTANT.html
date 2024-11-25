@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>important</title>
+    <link rel="icon" href="click-me.jpg">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0; /* Optional background color */
+        }
+        button {
+            height: 100px;
+            width: 100px;
+            font-size: 16px;
+            cursor: pointer;
+            transform: translateX(-5px); /* Move 50px to the right */
+        }
+        button:hover
+{
+    
+    color: darkred;
+}
+    </style>
+</head>
+<body>
+    <button onclick="redirectToPage()">CLICK ME</button>
+
+    <script>
+        function redirectToPage() {
+            window.location.href = "nothing.html";
+        }
+    </script>
+</body>
+</html>
